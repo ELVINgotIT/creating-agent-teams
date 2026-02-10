@@ -1,11 +1,22 @@
 {
   "name": "ZoranSpirkovski-creating-agent-teams",
-  "description": "Marketplace for Creating Agent Teams plugin",
+  "owner": {
+    "name": "Zoran Spirkovski",
+    "email": "forwarding@zorans.anonaddy.com"
+  },
+  "metadata": {
+    "description": "Marketplace for Creating Agent Teams plugin",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "creating-agent-teams",
       "description": "Skill for deciding when and how to create agent teams - single agent vs parallel subagents vs coordinated teams",
-      "source": "."
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ZoranSpirkovski/creating-agent-teams.git"
+      },
+      "version": "1.0.0"
     }
   ]
 }
