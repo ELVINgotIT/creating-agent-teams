@@ -1,10 +1,10 @@
 # Creating Agent Teams
 
-A Claude Code skill for deciding when and how to create agent teams - whether a task needs a single agent, parallel subagents, or a coordinated team.
+A Claude Code plugin with a skill for deciding when and how to create agent teams - whether a task needs a single agent, parallel subagents, or a coordinated team.
 
-## What This Skill Does
+## What This Plugin Does
 
-This skill helps you:
+This plugin provides a skill that helps you:
 - **Analyze tasks** to determine the right approach (single agent vs parallel vs team)
 - **Select the right model tier** (Haiku/Sonnet/Opus) for each role
 - **Choose agent types** (Explore, general-purpose, code-reviewer, etc.)
@@ -32,28 +32,44 @@ For complete details on agent teams, see the official Claude Code documentation:
 
 ## Installation
 
-### Option 1: Clone to Skills Directory
+### Option 1: Plugin Install (Recommended)
+
+Add this repository as a marketplace and install:
+
+```bash
+/plugin marketplace add ZoranSpirkovski/creating-agent-teams
+/plugin install creating-agent-teams@ZoranSpirkovski-creating-agent-teams
+```
+
+### Option 2: Clone to Plugins Directory
+
+```bash
+git clone https://github.com/ZoranSpirkovski/creating-agent-teams.git ~/.claude/plugins/creating-agent-teams
+```
+
+### Option 3: Clone to Skills Directory (Legacy)
 
 ```bash
 git clone https://github.com/ZoranSpirkovski/creating-agent-teams.git ~/.claude/skills/creating-agent-teams
+cd ~/.claude/skills/creating-agent-teams
+# Move skill files to root for legacy skill loading
+mv skills/creating-agent-teams/* .
+rmdir skills/creating-agent-teams skills
 ```
 
-### Option 2: Add as Git Submodule
+## Plugin Structure
 
-If you're managing skills in a dotfiles repo:
-
-```bash
-cd ~/.claude/skills
-git submodule add https://github.com/ZoranSpirkovski/creating-agent-teams.git
 ```
-
-## Files
-
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Core skill - decision framework, agent roster, communication patterns |
-| `research.md` | Reference - model comparisons, team patterns, anti-patterns |
-| `agent-prompt-template.md` | Templates for spawning each agent type |
+creating-agent-teams/
+├── .claude-plugin/
+│   └── plugin.json              # Plugin metadata
+├── skills/
+│   └── creating-agent-teams/
+│       ├── SKILL.md             # Core skill - decision framework
+│       ├── research.md          # Reference - model comparisons, patterns
+│       └── agent-prompt-template.md  # Templates for spawning agents
+└── README.md
+```
 
 ## Key Concepts
 
@@ -91,6 +107,11 @@ Example:
 Create an agent team to implement the user authentication feature.
 We need frontend login form, backend auth service, and API endpoints.
 ```
+
+## Contributing
+
+To submit this plugin to the official Anthropic marketplace:
+- [Plugin Directory Submission Form](https://clau.de/plugin-directory-submission)
 
 ## License
 

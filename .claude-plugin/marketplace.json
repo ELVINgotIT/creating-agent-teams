@@ -1,0 +1,11 @@
+{
+  "name": "ZoranSpirkovski-creating-agent-teams",
+  "description": "Marketplace for Creating Agent Teams plugin",
+  "plugins": [
+    {
+      "name": "creating-agent-teams",
+      "description": "Skill for deciding when and how to create agent teams - single agent vs parallel subagents vs coordinated teams",
+      "source": "."
+    }
+  ]
+}
